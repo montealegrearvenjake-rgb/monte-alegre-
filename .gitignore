@@ -1,0 +1,22 @@
+# Local configuration and secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Installed dependencies
+**/vendor/
+**/node_modules/
+
+# Generated build and runtime files
+**/public/build/
+**/database/*.sqlite
+**/bootstrap/cache/*.php
+**/storage/logs/*.log
+**/storage/framework/cache/data/*
+**/storage/framework/sessions/*
+**/storage/framework/views/*.php
+
+# Machine-specific files
+/.vscode/
+Thumbs.db
+.DS_Store
